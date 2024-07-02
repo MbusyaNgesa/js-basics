@@ -52,5 +52,19 @@ numArr.forEach(function (elementValue, elementIndex) {
 });
 
 // // MAP
-// console.log("");
-// console.log("Using the MAP method:");
+console.log("");
+console.log("Using the MAP method:");
+
+let nums = numArr.map((n) => n);
+console.log(nums[0]);
+console.log(nums[1]);
+console.log(nums[2]);
+
+//second map
+console.log("");
+
+const number = numArr.map(function (number) {
+  return number + 2;
+});
+console.log(number);
+console.log(number[0]);

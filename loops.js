@@ -5,7 +5,7 @@ let numArr = [23, 569];
 let someVar = 0;
 while (false) {
   console.log("Inside the while loop");
-  console.log(numArr[someVar]);
+  console.log(numArr[someVar]); //someVar here is used as an index
   someVar++;
 }
 console.log("someVar: ", someVar);
